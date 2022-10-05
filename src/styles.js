@@ -5,6 +5,7 @@ export const FourZeroFourContainer = styled.div`
   width: auto;
   background-repeat : no-repeat;
   display: flex;
+  flex-direction: column;
   align-items: center;
 `;
 
@@ -17,5 +18,5 @@ export const FourZeroFourOops = styled.div`
   font-size: 1.5rem;
   line-height: 2rem;
   text-align: center;
-  padding : 0% 5%;
+padding: 5% 5% 0% 5%;
 `;
