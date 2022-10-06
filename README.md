@@ -1,29 +1,25 @@
-# Four - 0h - Four 
+## _Four Oh Four_
+Four Oh Four is a Responsive Application built on ReactJS which will show you a different image for Page Not Found everytime you visit. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Everytime you visit or reload, you will see a different Page Not Found message. 
+## Installation
 
+This application requires [Node.js](https://nodejs.org/) v10+ to run.
 
-## Available Scripts
+Clone the Reposotiry in your local and install the dependencies and devDependencies and start the server.
 
-In the project directory, you can run:
+```sh
+cd four-oh-four
+npm i
+npm start
+```
+## Development
 
-### `npm start`
+Want to contribute? Great! Feel free to do one :-)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## License
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+MIT
 
+## Technologies 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+Styled Components

@@ -1,7 +1,20 @@
 import styled from "styled-components";
 //Styling for Route - 404 Page
+
+export const FourZeroFourNavBar = styled.div`
+    height : 5vh;
+    background-color: #EEE;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+`;
+
+export const FourZeroFourLinks = styled.div`
+    margin: 1%;
+    color: blue;
+`;
+
 export const FourZeroFourContainer = styled.div` 
-  height: 100vh;
   width: auto;
   background-repeat : no-repeat;
   display: flex;
@@ -10,13 +23,12 @@ export const FourZeroFourContainer = styled.div`
 `;
 
 export const FourZeroFourImg = styled.img`
-  height: 75%;
-  width: 75%;
+  height: 80vh;
 `;
 
 export const FourZeroFourOops = styled.div`
   font-size: 1.5rem;
   line-height: 2rem;
   text-align: center;
-padding: 5% 5% 0% 5%;
+  padding: 2% 5% 0% 5%;
 `;
