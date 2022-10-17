@@ -16,10 +16,6 @@ function App() {
   return (
 
     <>
-      <FourZeroFourNavBar>
-        <FourZeroFourLinks className="github">Profile</FourZeroFourLinks>
-        <FourZeroFourLinks className="github">Repo</FourZeroFourLinks>
-      </FourZeroFourNavBar>
       <FourZeroFourContainer>
         <FourZeroFourOops>
           The page is either broken or no longer availabe. <br />
